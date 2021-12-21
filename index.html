@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+    <section id="container">
+        <main class="main-container">
+
+            <h1>Sign In</h1>
+
+            <div id="error"></div>
+            
+            <label for="">Username</label>
+            <input type="email" name="" id="username" placeholder="Email or Phone">
+            
+            <label for="">Password</label>
+            <input type="password" name="" id="password" value="" placeholder="Password">
+
+            <button id="submit-button" class="button" type="submit" onclick="clearFields();" onclick="click()" value="Submit">Login</button>
+
+            <!--Google Facebook Apple-->
+            <div class="social-container">
+				<a href="#" id="image1" class="social"><i class="fab fa-facebook-f"><img src="images/facebook.png" alt=""></i></a>
+				<a href="#" id="image2" class="social"><i class="fab fa-google-plus-g"><img src="images/apple.png" alt=""></i></a>
+				<a href="#" id="image3" class="social"><i class="fab fa-linkedin-in"></i><img src="images/google.png" alt=""></a>
+			</div>
+            
+        </main>
+    </section>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
