@@ -10,6 +10,21 @@ body {
     background-size: cover;
 }
 
+#theme {
+    text-align: center;
+}
+
+#theme button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 5px;
+}
+
+#theme img {
+    width: 20px;
+    height: auto;
+}
+
 #container {
     height: 75vh;
     width: 57vh;
