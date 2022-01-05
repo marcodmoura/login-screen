@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +9,37 @@
     <title>Sign In</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
 
-    <div id="theme" class="theme">
+    <header class="top-content">
         <button id="lightMode" onclick="lightMode()"><img src="images/sun.png" alt=""></button>
         <button id="darkMode" onclick="darkMode()"><img src="images/moon.png" alt=""></button>   
-    </div>
+    </header>
 
-    <section id="container">
-        <main class="main-container">
+    <main class="main-content">
 
-            <h1>Sign In</h1>
+        <form class="form">
+
+            <div class="title-content">
+                <h1 class="title">Sign In</h1>
+            </div>
 
             <div id="error"></div>
-            
-            <label for="">Username</label>
-            <input type="email" name="" id="username" placeholder="Email or Phone">
-            
-            <label for="">Password</label>
-            <input type="password" name="" id="password" value="" placeholder="Password">
 
-            <button id="submit-button" class="button" type="submit" onclick="clearFields();" onclick="click()" value="Submit">Login</button>
+            <div class="user-content">
+                <label for="">Username</label>
+                <input type="email" name="" id="username" placeholder="Email or Phone">
+            </div>
+            
+            <div class="password-content">
+                <label for="">Password</label>
+                <input type="password" name="" id="password" value="" placeholder="Password">
+            </div>
+            
+            <div class="button-content">
+                <button id="submit-button" class="button" type="submit" onclick="clearFields();" onclick="click()" value="Submit">Login</button>
+            </div>
 
             <!--Google Facebook Apple-->
             <div class="social-container">
@@ -36,9 +48,12 @@
 				<a href="#" id="image3" class="social"><i class="fab fa-linkedin-in"></i><img src="images/google.png" alt=""></a>
 			</div>
             
-        </main>
-    </section>
+        </form>
+
+    </main>
+
     <script src="scripts/scripts.js"></script>
     <script src="scripts/theme.js"></script>
 </body>
+
 </html>
